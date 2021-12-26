@@ -25,7 +25,7 @@
     <version>2.3.2</version>
 </dependency>
 
-<!-- Runtime, com.sun.xml.bind module -->
+<!-- Runtime, com.sun.xml.bind module (to fixed depency issues -->
 <dependency>
     <groupId>org.glassfish.jaxb</groupId>
     <artifactId>jaxb-runtime</artifactId>
