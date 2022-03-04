@@ -3,7 +3,7 @@ package com.javainuse.model.fundraiser;
 public class FundRaiser {
 	private String userName;
 	private String company;
-	private String [] myPrivatedonationArray;
+	private String [] myDonationArray;
 	private double amount;
 	private String description;
 	public String getUserName() {
@@ -18,11 +18,12 @@ public class FundRaiser {
 	public void setCompany(String company) {
 		this.company = company;
 	}
-	public String[] getMyPrivatedonationArray() {
-		return myPrivatedonationArray;
+	public String[] getMyDonationArray() {
+		return myDonationArray;
 	}
-	public void setMyPrivatedonationArray(String[] myPrivatedonationArray) {
-		this.myPrivatedonationArray = myPrivatedonationArray;
+//	passing an array;
+	public void setMyDonationArray(String... myDonationArray) {
+		this.myDonationArray = myDonationArray;
 	}
 	public double getAmount() {
 		return amount;
